@@ -13,8 +13,8 @@ let lampOn = false;
 button.addEventListener("click", () => {
     lampOn = !lampOn;
     lampada.src = lampOn
-      ? "https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/lampada.png?raw=true"
-      : "https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/lampada-com-mago.png?raw=true";
+      ? "https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/lampada-com-mago.png?raw=true"
+      : "https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/lampada.png?raw=true";
 })//mudar a imagem 
 // operador ternario -condicional               
     
